@@ -53,7 +53,9 @@
 
     <!-- Sdk Sandbox key -->
     <signer signature="@SDK_SANDBOX" >
-      <seinfo value="sdk_sandbox" />
+      <package name="com.android.sdksandbox">
+        <seinfo value="sdk_sandbox" />
+      </package>
     </signer>
 
     <!-- Bluetooth key in AOSP -->
